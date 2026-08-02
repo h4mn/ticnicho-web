@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guia do Testador — Ticnicho</title>
+<meta name="description" content="Como testar o Ticnicho antes do lançamento. Não precisa entender de tecnologia — basta usar e contar como foi.">
+<meta name="robots" content="noindex">
+<style>
+  :root{--primary:#006C4C;--bg:#F6FBF4;--surface:#FFFFFF;--ink:#161D18;--muted:#56605A;--line:#DCE5DB;--hl:#E9F5EE}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+  a{color:var(--primary)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  nav{display:flex;align-items:center;gap:10px;padding:18px 0;font-weight:800;letter-spacing:-.02em}
+  nav .mark{width:28px;height:28px;border-radius:8px;background:var(--primary);display:grid;place-items:center;color:#fff;font-size:.9rem}
+  article{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:34px;margin:14px 0 34px}
+  article h1{font-size:1.8rem;letter-spacing:-.02em;margin-bottom:6px}
+  article .lead{color:var(--muted);margin-bottom:24px}
+  article h2{font-size:1.15rem;margin:26px 0 6px;color:var(--primary)}
+  article p,article li{color:#2A332E}
+  article ol,article ul{padding-left:22px;margin:6px 0}
+  article li{margin-bottom:6px}
+  article blockquote{border-left:3px solid var(--line);padding:6px 0 6px 14px;color:var(--muted);margin:10px 0;font-size:.95rem}
+  .channel{display:flex;gap:12px;align-items:flex-start;background:var(--hl);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+  .channel .ico{font-size:1.3rem;line-height:1.2}
+  .channel strong{color:var(--primary)}
+  .cta{display:inline-block;margin-top:8px;background:var(--primary);color:#fff;padding:12px 22px;border-radius:12px;font-weight:700;text-decoration:none}
+  .cta:hover{opacity:.92}
+  .star{background:#FFF8E7;border:1px solid #E8D78E;border-radius:12px;padding:18px 20px;margin:14px 0}
+  .star h2{margin-top:0}
+  .checklist{list-style:none;padding-left:0}
+  .checklist li{position:relative;padding-left:30px;margin-bottom:8px}
+  .checklist li::before{content:"✅";position:absolute;left:0;top:0}
+  footer{padding:24px 0 40px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);margin-top:10px}
+  footer a{margin-right:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><span class="mark">✓</span> <a href="index.html">Ticnicho</a></nav>
+  <article>
+    <h1>Guia do Testador</h1>
+    <p class="lead">Você foi convidado(a) para testar o <strong>Ticnicho</strong> antes do lançamento. Obrigado! Não é preciso entender de tecnologia — basta usar o app de verdade e nos contar como foi.</p>
+
+    <h2>O que é "testar um app"?</h2>
+    <p>Testar é simplesmente <strong>usar o app como você usaria no dia a dia</strong> e avisar se algo não funcionar direito. Não precisa procurar erro técnico: se o app travar, mostrar um número errado ou alguma tela ficar confusa, é isso que queremos saber. E, se estiver tudo certo, <strong>isso também conta</strong> — um "funcionou bem" é uma resposta valiosa.</p>
+
+    <h2>1. Aceitar o convite (uma vez)</h2>
+    <ol>
+      <li>Você recebeu um <strong>link de convite</strong>. Abra no celular.</li>
+      <li>Toque em <strong>Aceitar convite</strong> / <em>Become a tester</em>.</li>
+      <li>Vai aparecer: <em>"Você agora é um testador"</em>.</li>
+    </ol>
+    <blockquote>Se o link não abrir direto na Play Store, copie e cole no navegador do celular.</blockquote>
+
+    <h2>2. Instalar o app</h2>
+    <ol>
+      <li>Abra a <strong>Play Store</strong> e procure por <strong>Ticnicho</strong> (ou use o link do convite → <em>Baixar na Play Store</em>).</li>
+      <li>Instale normalmente.</li>
+      <li>Abra o app.</li>
+    </ol>
+
+    <div class="star">
+      <h2>3. Usar de verdade — todos os dias, por 14 dias ⭐</h2>
+      <p>Este é o passo <strong>mais importante</strong>. O Google mede o uso: abrir uma vez e sumir <strong>não conta</strong>.</p>
+      <p>Faça algo real no app, pelo menos <strong>1 vez por dia</strong>:</p>
+      <ul>
+        <li><strong>Como fornecedor:</strong> registre uma venda (o que o cliente pegou), confira o saldo de um cliente, cadastre ou atualize um cliente.</li>
+        <li><strong>Como cliente:</strong> abra e confira o que consta no seu nome; avise se algo estiver errado.</li>
+      </ul>
+      <blockquote>1–2 lançamentos por dia bastam. O que importa é o app ver <strong>atividade real</strong> ao longo dos 14 dias.</blockquote>
+    </div>
+
+    <h2>4. Como enviar feedback</h2>
+    <p>Encontrou um problema ou quer sugerir algo? Escolha o canal mais fácil pra você:</p>
+
+    <div class="channel">
+      <span class="ico">📝</span>
+      <div>
+        <strong>Formulário</strong> — o jeito mais fácil. Leva 1 minuto.<br>
+        <a class="cta" href="https://forms.gle/PqdhbbmQnAqXtX1D9" target="_blank" rel="noopener">Abrir formulário de feedback</a>
+      </div>
+    </div>
+
+    <div class="channel">
+      <span class="ico">💬</span>
+      <div><strong>Grupo de WhatsApp</strong> — você foi incluído(a) no nosso grupo de teste no WhatsApp. Fale por lá também (dúvidas, sugestões, "deu certo").</div>
+    </div>
+
+    <div class="channel">
+      <span class="ico">✉️</span>
+      <div><strong>E-mail:</strong> <a href="mailto:contato.ticnicho@gmail.com">contato.ticnicho@gmail.com</a></div>
+    </div>
+
+    <p>Ao relatar, descreva: o que você fez, o que esperava, o que aconteceu e (se possível) uma <em>print</em>. Mesmo um "tudo funcionando bem" a cada poucos dias ajuda.</p>
+
+    <h2>O que conta como "pronto"</h2>
+    <ul class="checklist">
+      <li>Aceitou o convite <strong>e</strong> instalou.</li>
+      <li>Usou o app em <strong>dias diferentes</strong> ao longo dos 14 dias (quanto mais dias ativos, melhor).</li>
+      <li>Manteve o app instalado durante o período (se desinstalar, reinstale — o convite continua valendo).</li>
+    </ul>
+
+    <h2>Dúvidas comuns</h2>
+    <p><strong>Desinstalei por engano:</strong> reinstale pela Play Store; seu convite continua ativo.</p>
+    <p><strong>Não recebi o convite:</strong> confira o e-mail correto (o usado no convite) e a pasta de spam.</p>
+    <p><strong>O app não sincroniza:</strong> precisa de internet. Tente com Wi-Fi; se persistir, nos avise.</p>
+    <p><strong>Já passei dos 14 dias:</strong> continue usando — seu uso mantém o app confiável até o lançamento.</p>
+
+    <p style="margin-top:24px;color:var(--muted)">Cada uso seu é uma confirmação de que o Ticnicho funciona no dia a dia — é isso que libera o app pra milhares de pequenos negócios. Obrigado por ajudar!</p>
+  </article>
+  <footer>
+    <div><a href="index.html">Início</a> <a href="privacidade.html">Política de Privacidade</a> <a href="termos.html">Termos de Uso</a></div>
+    <div style="margin-top:8px">© 2026 Ticnicho · Guia do Testador · v1.0</div>
+  </footer>
+</div>
+</body>
+</html>
